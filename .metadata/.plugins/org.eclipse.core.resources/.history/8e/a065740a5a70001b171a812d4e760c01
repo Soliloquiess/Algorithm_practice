@@ -1,0 +1,10 @@
+package Main;
+
+import java.io.BufferedReader;
+
+public class SWEA_2019_더블더블 {
+
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(System.in));
+	}
+}

@@ -1,0 +1,27 @@
+import java.util.*;
+class Main{
+	static int n, m, answer=Integer.MAX_VALUE;
+	public void DFS(int L, int sum, Integer[] arr){
+		if(sum>m) return;
+		if(L>=answer) return;	//m값 넘어가면 return 해야 된다.
+		if(sum==m){	//sum이 거슬러준 금액이 되면
+			answer=Math.min(answer, L);	//이 sum을 만들어내는 값 L이랑 answer과 비교한다
+		}
+		else{
+			for(int i=0; i<n; i++){
+				DFS(L+1, sum+arr[i], arr);	//동전 개수 하나 증가 i번쨰 동전 하나 사용
+			}
+		}	
+	}
+	public static void main(String[] args){
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		n=kb.nextInt();
+		Integer[] arr=new Integer[n];
+		for(int i=0; i<n; i++) arr[i]=kb.nextInt();
+		Arrays.sort(arr, Collections.reverseOrder());//정렬 내림차순 해준다.
+		m=kb.nextInt();
+		T.DFS(0, 0, arr);
+		System.out.println(answer);
+	}
+}

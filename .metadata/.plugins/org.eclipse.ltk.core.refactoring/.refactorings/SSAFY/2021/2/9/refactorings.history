@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;SSAFY&apos;&#x0D;&#x0A;- Original project: &apos;SSAFY&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SSAFY/src/lab.ssafy.corona.app&#x0D;&#x0A;     SSAFY/src/lab.ssafy.corona.virus" description="Delete elements" element1="/src&lt;lab.ssafy.corona.virus" element2="/src&lt;lab.ssafy.corona" element3="/src&lt;lab.ssafy" element4="/src&lt;lab" element5="/src&lt;lab.ssafy.corona.app" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1613998499497" subPackages="false" version="1.0"/>
+</session>

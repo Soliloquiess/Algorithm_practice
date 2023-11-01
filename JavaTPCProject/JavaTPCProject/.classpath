@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/json-20180813.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/apache-tomcat-9.0.45/itextpdf-5.5.13.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

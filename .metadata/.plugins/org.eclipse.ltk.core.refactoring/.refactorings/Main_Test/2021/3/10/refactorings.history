@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;inflearn._4_나이차이&apos; to &apos;_04_나이차이&apos;&#x0D;&#x0A;- Original project: &apos;Main_Test&apos;&#x0D;&#x0A;- Original element: &apos;inflearn._4_나이차이&apos;&#x0D;&#x0A;- Renamed element: &apos;inflearn._04_나이차이&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;_4_나이차이&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;inflearn{_4_나이차이.java[_4_나이차이" matchStrategy="1" name="_04_나이차이" qualified="false" references="true" similarDeclarations="false" stamp="1614861089751" textual="false" version="1.0"/>
+</session>

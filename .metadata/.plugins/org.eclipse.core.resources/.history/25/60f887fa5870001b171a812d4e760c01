@@ -1,0 +1,10 @@
+package Main;
+
+public class SWEA_1936_1대1_가위바위보 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
